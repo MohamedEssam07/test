@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 370px;
+    height: 300px;
+    background-color: red;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    
+}
+.icons a{
+    background-color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: all 0.7s ease;
+}
+.icons a span{
+    margin-left: 7.5px;
+}
+.icons a:hover{
+background-color: rgb(31, 108, 232);
+color: white;
+}
+
+
+
+
+
+
+
+.divider{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.divider::before , .divider::after{
+    content: "";
+    flex: 1;  /*ensures the lines take up equal space on both sides of the word,*/
+    border-bottom: 1px solid black;
+    margin: 0 10px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+
+}
+.data input{
+    padding: 10px;
+    border-radius: 2px;
+    border: transparent;
+    outline: none;
+
+}
+button{
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: rgb(31, 108, 232);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
